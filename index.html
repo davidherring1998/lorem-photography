@@ -12,16 +12,37 @@
     />
   </head>
   <body>
-    <!-- Navbar  -->
+    <!-- Navbar above 700px  -->
     <div class="navbar">
-      <div class="logo"></div>
-      <nav>
+      <a href="#welcome-page"
+        ><img id="logo" src="./assets//images/logo.jpeg" alt="photography logo"
+      /></a>
+      <nav id="nav">
         <ul>
           <li><a href="#welcome-page">Welcome</a></li>
           <li><a href="#services-page">Services</a></li>
           <li><a href="#testimonies-page">Testimonies</a></li>
           <li><a href="#contact-page">Contact</a></li>
         </ul>
+      </nav>
+
+      <!-- Navbar under 700px -->
+      <nav id="nav-dropdown">
+        <a href="#welcome-page"
+          ><img
+            id="dropdown-logo"
+            src="./assets//images/logo.jpeg"
+            alt="photography logo"
+        /></a>
+        <button class="dropdown-btn">
+          Menu
+          <i class="fa-regular fa-square-caret-down"></i>
+        </button>
+        <div class="dropdown-list">
+          <a href="#services-page">Services</a>
+          <a href="#testimonies-page">Testimonies</a>
+          <a href="#contact-page">Contact</a>
+        </div>
       </nav>
     </div>
 
@@ -38,5 +59,9 @@
     <section id="contact-page"></section>
 
     <script src="./assets//index.js"></script>
+    <script
+      src="https://kit.fontawesome.com/2342cb5074.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

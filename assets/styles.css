@@ -1,0 +1,27 @@
+/* Fonts: { */
+/* font-family: "Sofia", sans-serif; */
+
+/* font-family: "Trirong", serif; */
+
+/* font-family: "Sofia", sans-serif;
+  font-size: 30px;
+  text-shadow: 3px 3px 3px #ababab; */
+/* } */
+
+/* colors: */
+:root {
+  --white: #edf2fb;
+  --light-blue: #e2eafc;
+  --light-grey: #d7e3fc;
+  --blue-grey: #ccdbfd;
+  --dark: #lC1D3FE;
+  --blue: #b6ccfe;
+  --purple: #abc4ff;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Trirong", serif;
+  background-color: var(--light-blue);
+}

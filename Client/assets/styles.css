@@ -1,0 +1,227 @@
+/* Fonts: { */
+/* font-family: "Sofia", sans-serif; */
+
+/* font-family: "Trirong", serif; */
+
+/* font-family: "Sofia", sans-serif;
+  font-size: 30px;
+  text-shadow: 3px 3px 3px #ababab; */
+/* } */
+
+/* colors: */
+:root {
+  --white: #edf2fb;
+  --light-blue: #e2eafc;
+  --light-grey: #d7e3fc;
+  --blue-grey: #ccdbfd;
+  --blue: #b6ccfe;
+  --purple: #abc4ff;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Trirong", serif;
+  background-image: url("../images/background.jpg");
+  background-color: var(--blue);
+  height: 100vh; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-repeat: no-repeat;
+}
+
+/* Nav section */
+.navbar {
+  background-color: var(--white);
+  width: 100%;
+  margin-top: -15px;
+  border-bottom: 2px solid black;
+}
+
+/* Logo */
+#logo {
+  width: 175px;
+  height: 35.5px;
+  margin-left: 50px;
+  margin-top: -10%;
+  margin-bottom: -56.5px;
+  border: 3px solid var(--blue);
+}
+
+/* Navbar */
+#nav {
+  display: block;
+  overflow: hidden;
+  height: 80px;
+}
+#nav ul {
+  float: right;
+  list-style: none;
+  padding: 14px 16px;
+}
+#nav ul li {
+  float: left;
+  padding: 1px 15px;
+  font-size: 20px;
+}
+#nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
+
+#nav ul li a:hover {
+  text-decoration: none;
+  color: var(--blue);
+}
+@media screen and (max-width: 700px) {
+  #nav {
+    display: none;
+  }
+  #logo {
+    display: none;
+  }
+}
+@media screen and (min-width: 700px) {
+  #nav-dropdown {
+    display: none;
+  }
+  #dropdown-logo {
+    display: none;
+  }
+}
+/* Dropdown under 700px */
+#nav-dropdown img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -50px;
+  height: 65px;
+  width: 50vw;
+}
+#nav-dropdown a {
+  font-size: 16px;
+  color: black;
+  padding: 8px 14px;
+  font-family: inherit;
+  margin: 0;
+  font-weight: 450;
+  font-size: x-large;
+  text-align: center;
+  border: none;
+}
+#nav-dropdown a:hover {
+  color: red;
+}
+.dropdown-list {
+  display: none;
+  position: absolute;
+  background-color: var(--white);
+}
+.dropdown-list a:hover {
+  border: 1px solid black;
+}
+.dropdown-list a {
+  float: none;
+  padding: 12px 1px;
+  text-decoration: none;
+  display: block;
+  width: 100vw;
+}
+#nav-dropdown:hover .dropdown-list {
+  display: block;
+}
+.dropdown-btn {
+  border: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 8vh;
+  width: 50vw;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 3%;
+  background-color: var(--white);
+}
+.dropdown-btn:hover{
+  color: red;
+}
+/* Welcome introduction */
+.intro-container {
+  margin-top: -3vh;
+}
+.inner-box {
+  text-align: center;
+  background-color: var(--white);
+  margin: 12px;
+  margin-top: 6vh;
+  font-size: 4vh;
+  font-family: "Sofia", sans-serif;
+  opacity: .9;
+  border-radius: 5px;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+.inner-box span {
+  font-size: 5.5vh;
+  font-family: "Trirong", serif;
+  padding: 5px;
+  text-decoration: underline;
+}
+.about{
+  font-family: "Sofia", sans-serif;
+  font-size: 2vh;
+  color: black;
+  text-align: center;
+  margin-top: -3vh;
+}
+#local{
+  font-size: 3.5vh;
+}
+/* Review box on welcome page */
+.review-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-bottom: 100px;
+  margin-top: 80px;
+}
+.review {
+  border: 0.5px solid black;
+  background-color: var(--light-blue);
+  font-family: "Trirong", serif;
+  font-weight: 500;
+  opacity: 0.6;
+  border-radius: 20px;
+  margin: 25px;
+  padding: 15px;
+  width: 100%;
+}
+.name{
+  font-weight: 600;
+}
+.body{
+  font-size: 18px;
+  font-family: "Sofia", sans-serif;
+
+}
+@media screen and (max-width: 500px) {
+  .review-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 18px;
+    margin-top: -1.5vh;
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+  .review-three {
+    margin-bottom: 50px;
+  }
+  .body{
+    /* font-family: "Trirong", serif; */
+    font-size: 16px;
+
+  }
+}

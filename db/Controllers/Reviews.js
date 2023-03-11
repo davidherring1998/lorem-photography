@@ -10,7 +10,7 @@ const getReviews = asyncHandler(async (req, res) => {
 
 // POST
 // api/reviews
-const addReviewe = asyncHandler(async (req, res) => {
+const addReview = asyncHandler(async (req, res) => {
   // deconstruct
   const { name, body, stars } = req.body;
 
@@ -40,4 +40,5 @@ const addReviewe = asyncHandler(async (req, res) => {
 
 module.exports = {
   getReviews,
+  addReview
 };

@@ -28,6 +28,7 @@ body {
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-repeat: no-repeat;
+  margin-bottom: 1%;
 }
 
 /* Nav section */
@@ -147,6 +148,10 @@ body {
   color: red;
 }
 /* Welcome introduction */
+#welcome-page{
+  margin-bottom: 1%;
+
+}
 .intro-container {
   margin-top: -3vh;
 }
@@ -224,14 +229,13 @@ body {
 }
 /* Section two */
 #services-page{
-  margin-bottom: 10%;
-  padding-top: 10px;
   background-image: url('./images/background2.jpg');
   background-color: rgb(33, 21, 21);
   height: 100vh;
   background-position: center; 
   background-repeat: no-repeat; 
   background-repeat: no-repeat;
+  margin: auto;
 }
 .service-box-container{
   height: 70%;
@@ -252,4 +256,40 @@ body {
   padding: 15px;
   width: 100%;
   flex-wrap: nowrap;
+  overflow: hidden;
 }
+
+
+/* section three  */ 
+#testimonies-page{
+  padding-top: 10px;
+  background-image: url('./images/background3.jpg');
+  background-color: rgb(33, 21, 21);
+  height: 100vh;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-repeat: no-repeat;
+}
+#photo-container{
+  height: 70%;
+  padding-top: 50px;
+  margin: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+.photo-section{
+  flex-wrap: wrap;
+   border: 0.5px solid black;
+  background-color: var(--light-blue);
+  font-family: "Trirong", serif;
+  font-weight: 500;
+  opacity: 0.6;
+  border-radius: 20px;
+  margin: 25px;
+  padding: 15px;
+  height: 90%;
+  width: 100%; 
+}
+/* section four // reserve form  */

@@ -15,7 +15,7 @@ const reviewAPI = fetch("http://localhost:8000/api/reviews")
 const getReviews = async () => {
   const data = await reviewAPI;
 
-  console.log(data[1].body)
+  console.log(data)
   // Text box one
   bodyOne.innerHTML = data[0].body
   nameOne.innerHTML = `-${data[0].name}`

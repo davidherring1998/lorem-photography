@@ -296,4 +296,11 @@ body {
   height: 450px;
   width: 100%;
 }
+.btn-div{ 
+  margin: auto;
+}
+#btn{
+  /* margin: 25px; */
+  width: 100vw;
+}
 /* section four // reserve form  */

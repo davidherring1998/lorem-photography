@@ -16,7 +16,7 @@ const fetchCall = async () => {
 
     // Get random number to get different pictures every time; 
     let numOne = Math.floor((Math.random() * 20) + 1);
-    let numTwo = Math.floor((Math.random() * 20) + 1);
+    let numTwo = Math.floor((Math.random() * 20) + 2);
     let numThree = Math.floor((Math.random() * 20) + 1);
 
     // Make sure the same image never appears
@@ -25,7 +25,8 @@ const fetchCall = async () => {
        let numTwo = 5;
        let numThree = 8;
     }
-    
+     console.log(hrefThree)
+     console.log(hrefTwo)
     // API call 
     const response = await fetch ("https://api.unsplash.com/photos/?client_id=t8tCzmX2DA78Ho50bKlGin7GBsruYNN9W5rV9amF6n8&per_page=30&order_by=popular")
     const images = await response.json()
@@ -39,6 +40,7 @@ const fetchCall = async () => {
     hrefOne.href = images[numOne].links.download;
     hrefTwo.href = images[numTwo].links.download;
     hrefThree.href = images[numThree].links.download;
+
 }
 fetchCall();
 
@@ -51,6 +53,6 @@ fetchCall();
 
 // }
 
-fetchReviewCall()
+// fetchReviewCall()
 
-btn.onclick(fetchCall());
+// btn.onclick(fetchCall());

@@ -4,7 +4,9 @@
   "description": "# Wire frames",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "client": "npm start --prefix client",
+    "server": "npm run start --prefix server",
+    "start": "concurrently \"npm run server\" \"npm run client\""
   },
   "repository": {
     "url": "git+https://github.com/davidherring1998/lorem-photography.git"
@@ -20,6 +22,7 @@
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "lorem-ipsum": "^2.0.8",
-    "mongoose": "^7.0.1"
+    "mongoose": "^7.0.1",
+    "nodemon": "^2.0.22"
   }
 }

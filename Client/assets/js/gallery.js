@@ -25,8 +25,7 @@ const fetchCall = async () => {
        let numTwo = 5;
        let numThree = 8;
     }
-     console.log(hrefThree)
-     console.log(hrefTwo)
+
     // API call 
     const response = await fetch ("https://api.unsplash.com/photos/?client_id=t8tCzmX2DA78Ho50bKlGin7GBsruYNN9W5rV9amF6n8&per_page=30&order_by=popular")
     const images = await response.json()

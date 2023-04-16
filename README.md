@@ -51,19 +51,10 @@ The lorem-photography web application is made to imitate a photography company's
 <img width="1512" alt="Screenshot 2023-04-16 at 2 04 51 PM" src="https://user-images.githubusercontent.com/106282330/232340909-b105738c-b19b-434a-a3bd-46eb7e8414fe.png">
 
 
-<img width="1512" alt="Screenshot 2023-04-16 at 2 05 30 PM" src="https://user-images.githubusercontent.com/106282330/232340926-5988c376-8c5e-4002-8204-8634a96f479c.png">
-
-
-<img width="1512" alt="Screenshot 2023-04-16 at 3 25 57 PM" src="https://user-images.githubusercontent.com/106282330/232340956-38f11f78-58a7-410c-983c-7c569ac791c6.png">
-
-
 <img width="1512" alt="Screenshot 2023-04-16 at 3 26 09 PM" src="https://user-images.githubusercontent.com/106282330/232340966-bad1db90-c98d-4075-972a-371349be120c.png">
 
 
 <img width="1512" alt="Screenshot 2023-04-16 at 3 26 25 PM" src="https://user-images.githubusercontent.com/106282330/232340967-9aea423f-16f0-425b-88a8-f437ef42d6a1.png">
-
-
-<img width="1512" alt="Screenshot 2023-04-16 at 3 26 32 PM" src="https://user-images.githubusercontent.com/106282330/232340971-476b96ca-523c-4c01-828a-5ace21747445.png">
 
 
 <img width="1512" alt="Screenshot 2023-04-16 at 3 26 38 PM" src="https://user-images.githubusercontent.com/106282330/232340974-612843f4-c62d-4180-b0c3-27e945f6426f.png">

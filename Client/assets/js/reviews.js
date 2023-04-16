@@ -9,8 +9,11 @@ const bodyThree = document.getElementById('body-three')
 const reviewAPI = fetch("http://localhost:8000/api/reviews")
   .then((res) => res.json())
   .then((data) => {
+    console.log(data)
     return data;
   })
+
+
 
 const getReviews = async () => {
   const data = await reviewAPI;

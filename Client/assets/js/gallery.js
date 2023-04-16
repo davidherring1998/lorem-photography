@@ -9,7 +9,7 @@ const nameOfArtistOne = document.getElementById('nameOne')
 const nameOfArtistTwo = document.getElementById('nameTwo')
 
 
-const btn = document.getElementById('btn');
+const btn = document.getElementById('refresh-btn');
 
 const fetchCall = async () => {
 
@@ -44,11 +44,20 @@ const fetchCall = async () => {
         nameOfArtistOne.innerHTML = `${images[numOne].user.first_name} ${images[numOne].user.last_name}`
     }
 
-    if(images[numTwo].user.first_name === null || images[numTwo].user.last_name === null){
+    if(images[numTwo].user.first_name === null || images[numTwo].user.last_name === null ){
         nameOfArtistTwo.innerHTML =  `Jane Doe`
     } else {
         nameOfArtistTwo.innerHTML = `${images[numTwo].user.first_name} ${images[numOne].user.last_name}`
     }
 }
+
+const refresh = () => {
+    fetchCall()
+}
+
+btn.addEventListener('click', () => {
+    refresh()
+});
+
 fetchCall();
 

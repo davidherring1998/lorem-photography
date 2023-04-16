@@ -6,12 +6,12 @@ const bodyTwo = document.getElementById('body-two')
 const bodyThree = document.getElementById('body-three')
 
 // API call for review data 
-const reviewAPI = fetch("http://localhost:8000/api/reviews")
-  .then((res) => res.json())
-  .then((data) => {
-    console.log(data)
-    return data;
-  })
+// const reviewAPI = fetch("http://localhost:8000/api/reviews")
+//   .then((res) => res.json())
+//   .then((data) => {
+//     console.log(data)
+//     return data;
+//   })
 
 
 
@@ -32,4 +32,4 @@ const getReviews = async () => {
   nameThree.innerHTML = `-${data[2].name}`
 }
 
-getReviews();
+// getReviews();

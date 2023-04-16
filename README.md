@@ -45,15 +45,13 @@ The lorem-photography web application is made to imitate a photography company's
   Link: https://mybrowseraddon.com/access-control-allow-origin.html?v=0.1.8&type=install
 
 ## Screenshots
-<img width="1512" alt="Screenshot 2023-04-16 at 2 05 22 PM" src="https://user-images.githubusercontent.com/106282330/2323
-<img width="1512" alt="Screenshot 2023-04-16 at 2 04 51 PM" src="https://user-images.githubusercontent.com/106282330/232340684-030e1976-d2f5-48ef-b294-a9d62a819efa.png">
-40669-2b440b64-0db9-4061-a592-ff5627f80272.png">
-<img width="1512" alt="Screenshot 2023-04-16 at 3 25 57 PM" src="https://user-images.githubusercontent.com/106282330
-<img width="1512" alt="Screenshot 2023-04-16 at 3 26 09 PM" src="https://user
-<img width="1512" alt="Screenshot 2023-04-16 at 3 26 25 PM" src="https://user
-<img width="1512" alt="Screenshot 2023-04-16 at 3 26 32 PM" src="https://user-images.githubusercontent.com/106282330/232340681-3d9bc481-e251-4be2-bb91-b8555aae7f38.png">
--images.githubusercontent.com/106282330/232340680-55bc6c56-d30e-466e-a480-0087fd326cbd.png">
--images.githubusercontent.com/106282330/232340676-2b488c66-7a17-498d-8bff-efe085b2fe1b.png">
-/232340672-daa921a5-fa42-43fe-bedd-04a95dd062cc.png">
+<img width="1512" alt="Screenshot 2023-04-16 at 2 05 22 PM" src="https://user-images.githubusercontent.com/106282330/232340734-8a849e80-fae4-40d7-9a58-fdf54d6a4789.png">
+<img width="1512" alt="Screenshot 2023-04-16 at 2
+<img width="1512" alt="Screenshot 2023-04-16 at 3 25 57 PM" src="https://user-images.githubusercontent.com/106282330/232340738-2f879c77-4648-4a7d-b266-57463a086fc8.png">
+ 04 51 PM" src="https://user-images.githubusercontent.com/106282330/232340735-0c5cf9d1-426b-4197-8284-08bd39304864.png">
+<img width="1512" alt="Screenshot 2023-04-16 at 3 26 09 PM" src="https://user-images.githubusercontent.com/106282330/232340745-0e0b1e44-3699-468a-b3df-f2255ea9afb6.png">
 
-<img width="1512" alt="Screenshot 2023-04-16 at 2 05 30 PM" src="https://user-images.githubusercontent.com/106282330/232340670-12860caf-1013-43a1-bb58-4a7758dac9d1.png">
+<img width="1512" alt="Screenshot 2023-04-16 at 3 26 25 PM" src="https://user-images.githubusercontent.com/106282330/232340748-94dc5ddc-2a88-4a86-bf2b-a96da5a24e22.png">
+<img width="1512" alt="Screenshot 2023-04-16 at 3 26 32 PM" src="https://user-images.githubusercontent.com/106282330/232340751-e4d21a26-6d28-4146-a4ab-37571fa370bb.png
+<img width="1512" alt="Screenshot 2023-04-16 at 3 26 38 PM" src="https://user-images.githubusercontent.com/106282330/232340754-e08e5640-e309-4c37-993a-c140ae3327c5.png">
+">

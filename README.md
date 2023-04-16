@@ -51,9 +51,6 @@ The lorem-photography web application is made to imitate a photography company's
 <img width="1512" alt="Screenshot 2023-04-16 at 2 04 51 PM" src="https://user-images.githubusercontent.com/106282330/232340909-b105738c-b19b-434a-a3bd-46eb7e8414fe.png">
 
 
-<img width="1512" alt="Screenshot 2023-04-16 at 3 26 09 PM" src="https://user-images.githubusercontent.com/106282330/232340966-bad1db90-c98d-4075-972a-371349be120c.png">
-
-
 <img width="1512" alt="Screenshot 2023-04-16 at 3 26 25 PM" src="https://user-images.githubusercontent.com/106282330/232340967-9aea423f-16f0-425b-88a8-f437ef42d6a1.png">
 
 
